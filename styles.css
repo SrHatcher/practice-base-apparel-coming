@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Josefin sans";
+    src: url("./fonts/JosefinSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Josefin sans';
+    src: url('./fonts/JosefinSans-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Josefin sans';
+    src: url('./fonts/JosefinSans-SemiBold.ttf');
+}
+
+:root{
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+
+    --gradiente1-from: hsl(0, 0%, 100%);
+    --gradiente1-to: hsl(0, 100%, 98%);
+
+    --button-gradiente2-from: hsl(0, 80%, 86%);
+    --button-gradiente2-from: hsl(0, 74%, 74%);   
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
