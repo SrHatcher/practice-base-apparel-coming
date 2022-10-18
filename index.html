@@ -5,13 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!--MODERN-CSS-RESET-->
-  <link rel="stylesheet" href="./reset.csss">
+  <link rel="stylesheet" href="./reset.css">
   <!--my styles-->
   <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
-
+  <main class="main">
+    <a href="./index.html" class="main__logo"></a>
+    <div class="main__hero">
+      <picture>
+        <source media="(min-width: 600px)" srcset="./images/hero-desktop.jpg" class="hola">
+        <img src="./images/hero-mobile.jpg" alt="">
+      </picture>
+    </div>
+    <h1 class="main__title"><span>WE'RE</span><br>COMING<br>SOON</h1>
+    <p class="main__text">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals</p>
+    <div class="main__subscription subscription gradient">
+      <input type="text" class="subscription__input" placeholder="Email Address">
+      <button class="subscription__button"><span></span></button>
+    </div>
+  </main>  
 
   <script src="./index.js"></script>
 </body>
